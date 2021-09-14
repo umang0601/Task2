@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Ubuntu&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+
+nav {
+    height: 14vh;
+    width: 100%;
+    background-color: #333;
+    color:#fff;
+    
+  }
+  .navitems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  
+  .navitems h1 {
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+  }
+
+  
+  .navitems button {
+    width: 13%;
+    height: 10vh;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    font-family: 'Roboto Slab', serif;
+    background-color: #00FFFF;
+    color: #333;
+    font-size: 20px;
+    margin: auto 0px;
+  }
+  
+  .fetchbtn:hover {
+    background-color: #fff;
+    color: #00FFFF;
+    cursor: pointer;
+  } 
+  .fetchuser {
+    width: 100%;
+    height: fit-content;
+    
+  }
+  
+  #main {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  
+  
+  .avatar {
+    border-radius: 10%;
+  }
+  
+  .profile_id {
+    border-radius: 5%;
+    background-image: radial-gradient(blue, #00FFFF);
+    margin: 6px;
+    padding: 15px;
+    width: 30%;
+    text-align: center;
+    transition: transform ease 0.2s;
+    opacity: 0.8;
+    margin-top: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+  }
+
+  .profile_id h3:hover{
+     
+    color: #FF8C00;
+  }
+  .profile_id p{
+    font-family: 'Nunito', sans-serif;
+  }
+  .profile_id:hover {
+    transform: scale(1.2);
+    opacity: 1;
+    color: #fff;
+  }
